@@ -41,9 +41,7 @@ format:
   - Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, etc. *ICLR2021*
   - Key Words: World models
   - ExpEnv: Atari
-  
-  Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
- 
+   
 - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795)
   - Bowen Baker, Ilge Akkaya, Peter Zhokhov, etc.
   - Key Words: Inverse Dynamics Model
