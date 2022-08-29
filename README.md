@@ -1,4 +1,3 @@
-# MMRL
 # Awesome Multi-Modal Reinforcement Learning 
 
 This is a collection of research papers for **Multi-Modal reinforcement learning (MMRL)**.
