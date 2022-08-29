@@ -6,55 +6,9 @@ Some papers may not be relevant to RL, but we include them anyway as they may be
 
 Welcome to follow and star!
 
-<!-- <pre name="code" class="html">
-<font color="red">[2022.07.06] New: We update the ICML 2022 paper list of model-based rl!
-
-[2022.02.13] We update the ICLR 2022 paper list of model-based rl.</font>
-</pre> -->
-
-
-<!-- ## Table of Contents
-
-- [A Taxonomy of RL](#a-taxonomy-of-model-based-rl-algorithms)
-- [Papers](#papers)
-  <!-- - [MARL](#classic-model-based-rl-papers)
-  - [Offline RL](#icml-2022) 
-  - [Meta RL](#iclr-2022) 
-  - [OfflineToOnline RL](#neurips-2021)
-  - [VisionBased RL](#iclr-2021)
-  - [LanguageBased RL](#icml-2021) -->
-<!-- - [Contributing](#contributing) -->
-
-
 ## A Introduction of Multi-Modal RL Algorithms
 
-<!-- We’ll start this section with a disclaimer: it’s really quite hard to draw an accurate, all-encompassing taxonomy of algorithms in the Multi-Modal RL space, because the modularity of algorithms is not well-represented by a tree structure. So we will publish a series of related blogs to explain more Model-Based RL algorithms. -->
-
 Multi-Modal RL agents focus on learning from video (images), language (text), or both, as humans do. We believe that it is important for intelligent agents to learn directly from images or text, since such data can be easily obtained from the Internet.
-
-<!-- <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./assets/mbrl-taxonomy.png">
-    <br>
-    <center>A non-exhaustive, but useful taxonomy of algorithms in modern Model-Based RL.</center>
-</center> -->
-
-<!-- We simply divide `Model-Based RL`  into two categories: `Learn the Model` and `Given the Model`. 
-- `Learn the Model` mainly focuses on how to build the environment model. 
-- `Given the Model` cares about how to utilize the learned model. 
-
-And we give some examples as shown in the figure above. There are links to algorithms in taxonomy. -->
-
-<!-- >[1] [World Models](https://worldmodels.github.io/): Ha and Schmidhuber, 2018  
-[2] [I2A](https://arxiv.org/abs/1707.06203) (Imagination-Augmented Agents): Weber et al, 2017  
-[3] [MBMF](https://sites.google.com/view/mbmf) (Model-Based RL with Model-Free Fine-Tuning): Nagabandi et al, 2017  
-[4] [MBVE](https://arxiv.org/abs/1803.00101) (Model-Based Value Expansion): Feinberg et al, 2018  
-[5] [ExIt](https://arxiv.org/abs/1705.08439) (Expert Iteration): Anthony et al, 2017  
-[6] [AlphaZero](https://arxiv.org/abs/1712.01815): Silver et al, 2017  
-[7] [POPLIN](https://openreview.net/forum?id=H1exf64KwH) (Model-Based Policy Planning): Wang et al, 2019  
-[8] [M2AC](https://arxiv.org/abs/2010.04893) (Masked Model-based Actor-Critic): Pan et al, 2020
- -->
 
 
 ## Papers
@@ -87,6 +41,13 @@ format:
   - Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, etc. *ICLR2021*
   - Key Words: World models
   - ExpEnv: Atari
+  
+  Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
+ 
+- [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795)
+  - Bowen Baker, Ilge Akkaya, Peter Zhokhov, etc.
+  - Key Words: Inverse Dynamics Model
+  - ExpEnv: Minecraft
 
 - [Offline Reinforcement Learning from Images with Latent Space Models](https://proceedings.mlr.press/v144/rafailov21a.html)
   - Rafael Rafailov, Tianhe Yu, Aravind Rajeswaran, etc. *ICML2021*
