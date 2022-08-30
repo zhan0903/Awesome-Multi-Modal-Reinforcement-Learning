@@ -6,7 +6,7 @@ Some papers may not be relevant to RL, but we include them anyway as they may be
 
 Welcome to follow and star!
 
-## A Introduction of Multi-Modal RL Algorithms
+## Introduction
 
 Multi-Modal RL agents focus on learning from video (images), language (text), or both, as humans do. We believe that it is important for intelligent agents to learn directly from images or text, since such data can be easily obtained from the Internet.
 
